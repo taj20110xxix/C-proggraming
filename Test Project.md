@@ -1,3 +1,33 @@
-# C Programming Notes (সবচেয়ে বড় হেডিং)
-## Topic 1: Variables and Data Types (মাঝারি হেডিং)
-### Sub-topic: Integer Types (ছোট হেডিং)
+# 📘 C Programming Learning Notes
+
+আমার C প্রোগ্রামিং শেখার সমস্ত নোট ও অনুশীলনী এখানে সাজিয়ে রাখা হলো।
+
+---
+
+## 📌 ১. মৌলিক পরিচিতি (Basics)
+
+| ডাটা টাইপ | মেমোরি সাইজ | ফরম্যাট স্পেসিফায়ার |
+| :--- | :--- | :--- |
+| `int` | 2 or 4 Bytes | `%d` |
+| `float` | 4 Bytes | `%f` |
+| `char` | 1 Byte | `%c` |
+
+---
+
+## 💻 ২. প্রথম কোড (First Program)
+
+নিচে একটি সাধারণ C প্রোগ্রাম দেওয়া হলো:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // আউটপুট প্রিন্ট করা
+    printf("Welcome to C Programming!\n");
+    return 0;
+}
+```
+
+## 📝 ৩. যা যা মনে রাখতে হবে
+1. প্রতিটি স্টেটমেন্টের শেষে সেমিকোলন (`;`) দেওয়া বাধ্যতামূলক।
+2. C একটি কেস-সেনসিটিভ ভাষা (Case-sensitive)।
